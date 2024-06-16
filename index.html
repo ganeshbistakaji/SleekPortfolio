@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Fill your info in content section for google SEO -->
+    <meta
+      name="description"
+      content="A full web developer and designer ready for work anytime."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Php, Web developer, Web designer, developer, designer, website, figma"
+    />
+    <!-- Bootstrap Do not TOUCH -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTS AWESOME DO NOT TOUCH -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Your Name -->
+    <title>Ganesh Bista</title>
+  </head>
+
+  <body>
+    <!-- Navgiation bar Large -->
+    <div class="container nav">
+      <div class="left">
+        <!-- Profile Pic -->
+        <div class="pfp">
+          <img
+            src="images/portfolio.png"
+            alt="error loading image"
+            class="profile"
+            draggable="false"
+          />
+        </div>
+
+        <!-- Navigation List -->
+        <p class="list ab active" onclick="location.href='#about'">About</p>
+        <p class="list wk" onclick="location.href='#work'">Work</p>
+        <p class="list sk" onclick="location.href='#skills-pc'">Skills</p>
+        <div class="line"></div>
+        <p class="list github">Github</p>
+        <p class="list discord">Discord</p>
+      </div>
+
+      <div class="right">
+        <p class="contact" id="contact">Contact Me</p>
+      </div>
+    </div>
+
+    <!-- Navigation Bar Tablets and Phones -->
+    <div class="container nav-phone">
+      <div class="top">
+        <!-- Profile Pic -->
+        <div class="pfp">
+          <img
+            src="images/portfolio.png"
+            alt="error loading image"
+            class="profile"
+            draggable="false"
+          />
+        </div>
+        <div class="menu">
+          <i class="fa-solid fa-bars hamburger" onclick="hamburgeropen();"></i>
+          <i
+            class="fa-solid fa-xmark hamburgerclose"
+            onclick="hamburgerclose();"
+          ></i>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <!-- Navigation List -->
+        <p class="list ab active" onclick="location.href='#about'">About</p>
+        <p class="list wk" onclick="location.href='#work'">Work</p>
+        <p class="list sk" onclick="location.href='#skills-mob'">Skills</p>
+        <div class="line"></div>
+        <p class="list github">Github</p>
+        <p class="list discord">Discord</p>
+        <p class="contact" id="contact">Contact Me</p>
+      </div>
+    </div>
+
+    <div class="container about" id="about">
+      <!-- Your name -->
+      <div class="name">
+        <p>Hey, I'm Ganesh</p>
+      </div>
+
+      <!-- Small brief -->
+      <p class="secondintro">a web developer and designer with</p>
+
+      <!-- About you -->
+      <p class="desc">
+        Knowledge in full stack web development kits, framewokrs and web/app
+        design software for all your web needs. My passion is creating web,
+        maybe I'm the real spiderman.
+      </p>
+
+      <!-- Experience -->
+      <div class="exp">
+        <div class="box">
+          <p class="head">3 Years</p>
+          <p class="body">Web Development</p>
+        </div>
+
+        <div class="box">
+          <p class="head">2 Years</p>
+          <p class="body">Web/App Design</p>
+        </div>
+
+        <div class="box">
+          <p class="head">1 Year</p>
+          <p class="body">PocketMine-MP</p>
+        </div>
+
+        <div class="box">
+          <p class="head">Multiple</p>
+          <p class="body">Programming Languages</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Your Works -->
+    <div class="container work" id="work">
+      <!-- Top Layer -->
+      <div class="top-flex">
+        <div class="boxwhite">
+          <!-- Info -->
+          <p class="heading">I've been making</p>
+          <p class="desc">
+            website templates for people to use it for their site as needed and
+            also have been working on a <strong>SCSS</strong> libarary (now
+            abandone for the time being) due to my other works. I also work with
+            a <strong>linux</strong> devce hence also being experienced in linux
+            (debian/ubuntu).
+          </p>
+        </div>
+        <div class="boxblack">
+          <!-- Info -->
+          <p class="heading">PocketMine-MP</p>
+          <p class="desc">
+            is a server software for a game (Minecraft) where anyone can create
+            their own server with multiple minigames using plugins. The server
+            software is coded in PHP (ridiculous? I know). I have made few open
+            source plugins for the software on my github.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Layer -->
+      <div class="bottom-flex">
+        <div class="boxblack">
+          <!-- Info -->
+          <p class="heading">I have been</p>
+          <p class="desc">
+            taking classes for other students that be school or college students
+            about Web Development. Hence I also do have skills as a teacher and
+            speaker since I taught my students like a literal children to make
+            the concepts easier to grasp and understand
+          </p>
+        </div>
+        <div class="boxwhite">
+          <!-- Info -->
+          <p class="heading">I have been working</p>
+          <p class="desc">
+            on a Internet Card maker (E-Card) and will be up for public very
+            soon where anyone can make a simple card for themselves and rather
+            than it being physical, it will be virtual making it easier to share
+            with others.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills PC -->
+    <div class="container skills-pc" id="skills-pc">
+      <div class="left">
+        <div class="html">
+          <p>HTML</p>
+        </div>
+        <div class="python">
+          <p>PYTHON</p>
+        </div>
+        <div class="linux">
+          <p>LINUX</p>
+        </div>
+        <div class="scss">
+          <p>SCSS</p>
+        </div>
+      </div>
+
+      <div class="mid">
+        <div class="react">
+          <p>R<br />E<br />A<br />C<br />T</p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="js">
+          <p>JAVASCRIPT</p>
+        </div>
+        <div class="css-and-php">
+          <div class="css">
+            <p>CSS</p>
+          </div>
+          <div class="php">
+            <p>PHP</p>
+          </div>
+        </div>
+        <div class="mysql">
+          <p>MYSQL</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Mob -->
+    <div class="container skills-mob" id="skills-mob">
+      <div class="html">
+        <p>HTML</p>
+      </div>
+      <div class="css">
+        <p>CSS</p>
+      </div>
+      <div class="js">
+        <p>JAVASCRIPT</p>
+      </div>
+      <div class="scss">
+        <p>SCSS</p>
+      </div>
+      <div class="php">
+        <p>PHP</p>
+      </div>
+      <div class="react">
+        <p>REACT</p>
+      </div>
+      <div class="python">
+        <p>PYTHON</p>
+      </div>
+      <div class="mysql">
+        <p>MYSQL</p>
+      </div>
+      <div class="linux">
+        <p>LINUX</p>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="script/main.js"></script>
+
+    <!-- BOOTSTRAP DO NOT TOUCH -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
