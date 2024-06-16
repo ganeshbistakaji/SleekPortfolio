@@ -9,3 +9,7 @@ Claiming the code as yours or adding your watermark or charging others for the t
 # Download
 
 [Download Here](https://github.com/ganeshbistakaji/SleekPortfolio/releases/tag/1.0)
+
+# Demo
+
+[Demo](https://ganeshbistakaji.github.io/portfolio/)
