@@ -12,7 +12,7 @@ Claiming the code as yours or adding your watermark or charging others for the t
 
 # Demo
 
-[Demo](https://ganeshbistakaji.github.io/portfolio/)
+[Demo](https://ganesh.internetcard.me)
 
 # Pull Requests
 
