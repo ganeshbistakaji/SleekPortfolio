@@ -460,6 +460,7 @@ body {
     margin-bottom: 10%;
     text-align: center;
     font-size: 16px;
+    width: 100%;
   }
   .about .exp {
     width: 100%;
@@ -590,96 +591,105 @@ body {
     -webkit-user-select: none;
     margin-top: 5%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .skills-mob .html {
+  .skills-mob .boxy {
+    width: 100%;
+  }
+  .skills-mob .boxy div {
+    margin-bottom: 1%;
+  }
+  .skills-mob .boxy .html {
     background-color: #e34c26;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .html p {
+  .skills-mob .boxy .html p {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .skills-mob .python {
+  .skills-mob .boxy .python {
     background-color: #346c99;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .python p {
+  .skills-mob .boxy .python p {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .skills-mob .linux {
+  .skills-mob .boxy .linux {
     background-color: #070708;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .linux p {
+  .skills-mob .boxy .linux p {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .skills-mob .scss {
+  .skills-mob .boxy .scss {
     background-color: #d0649b;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .scss p {
+  .skills-mob .boxy .scss p {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .skills-mob .react {
+  .skills-mob .boxy .react {
     background-color: #4adafe;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .react p {
+  .skills-mob .boxy .react p {
     line-height: 1.35;
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .skills-mob .js {
+  .skills-mob .boxy .js {
     background-color: #f0ee00;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .js p {
+  .skills-mob .boxy .js p {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .skills-mob .css {
+  .skills-mob .boxy .css {
     background-color: #13a1df;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .css p {
+  .skills-mob .boxy .css p {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .skills-mob .php {
+  .skills-mob .boxy .php {
     background-color: #4f5b93;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .php p {
+  .skills-mob .boxy .php p {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .skills-mob .mysql {
+  .skills-mob .boxy .mysql {
     background-color: #e48e00;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .mysql p {
+  .skills-mob .boxy .mysql p {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
   }
 }
@@ -790,7 +800,7 @@ body {
     font-size: 16px;
   }
   .about .exp {
-    width: 100%;
+    width: 90%;
     height: -moz-fit-content;
     height: fit-content;
     display: flex;
@@ -825,7 +835,7 @@ body {
     flex-direction: column;
   }
   .work .top-flex {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -870,7 +880,7 @@ body {
     font-size: 16px;
   }
   .work .bottom-flex {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -922,96 +932,102 @@ body {
     -webkit-user-select: none;
     margin-top: 5%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .skills-mob .html {
+  .skills-mob .boxy {
+    width: 90%;
+  }
+  .skills-mob .boxy .html {
     background-color: #e34c26;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .html p {
+  .skills-mob .boxy .html p {
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
-  .skills-mob .python {
+  .skills-mob .boxy .python {
     background-color: #346c99;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .python p {
+  .skills-mob .boxy .python p {
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
-  .skills-mob .linux {
+  .skills-mob .boxy .linux {
     background-color: #070708;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .linux p {
+  .skills-mob .boxy .linux p {
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
-  .skills-mob .scss {
+  .skills-mob .boxy .scss {
     background-color: #d0649b;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .scss p {
+  .skills-mob .boxy .scss p {
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
-  .skills-mob .react {
+  .skills-mob .boxy .react {
     background-color: #4adafe;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .react p {
+  .skills-mob .boxy .react p {
     line-height: 1.35;
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
-  .skills-mob .js {
+  .skills-mob .boxy .js {
     background-color: #f0ee00;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .js p {
+  .skills-mob .boxy .js p {
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
-  .skills-mob .css {
+  .skills-mob .boxy .css {
     background-color: #13a1df;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .css p {
+  .skills-mob .boxy .css p {
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
-  .skills-mob .php {
+  .skills-mob .boxy .php {
     background-color: #4f5b93;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .php p {
+  .skills-mob .boxy .php p {
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
-  .skills-mob .mysql {
+  .skills-mob .boxy .mysql {
     background-color: #e48e00;
     border-radius: 20px;
     text-align: center;
   }
-  .skills-mob .mysql p {
+  .skills-mob .boxy .mysql p {
     color: white;
-    font-size: 64px;
+    font-size: 30px;
     font-weight: 600;
   }
 }/*# sourceMappingURL=index.css.map */

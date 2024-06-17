@@ -499,6 +499,7 @@ body {
             margin-bottom: 10%;
             text-align: center;
             font-size: 16px;
+            width: 100%;
         }
 
         .exp {
@@ -632,103 +633,114 @@ body {
         -webkit-user-select: none;
         margin-top: 5%;
         width: 100%;
-        .html {
-            background-color: #e34c26;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
-            }
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        .python {
-            background-color: #346c99;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+        .boxy {
+            width: 100%;
+            div {
+                margin-bottom: 1%;
             }
-        }
 
-        .linux {
-            background-color: #070708;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .html {
+                background-color: #e34c26;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .scss {
-            background-color: #d0649b;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .python {
+                background-color: #346c99;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .react {
-            background-color: #4adafe;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                line-height: 1.35;
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .linux {
+                background-color: #070708;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .js {
-            background-color: #f0ee00;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .scss {
+                background-color: #d0649b;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .css {
-            background-color: #13a1df;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .react {
+                background-color: #4adafe;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    line-height: 1.35;
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .php {
-            background-color: #4f5b93;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .js {
+                background-color: #f0ee00;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .mysql {
-            background-color: #e48e00;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .css {
+                background-color: #13a1df;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
+            }
+
+            .php {
+                background-color: #4f5b93;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
+            }
+
+            .mysql {
+                background-color: #e48e00;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: $semibold;
+                }
             }
         }
     }
@@ -855,7 +867,7 @@ body {
         }
 
         .exp {
-            width: 100%;
+            width: 90%;
             height: fit-content;
             display: flex;
             flex-wrap: wrap;
@@ -891,7 +903,7 @@ body {
         justify-content: center;
         flex-direction: column;
         .top-flex {
-            width: 100%;
+            width: 90%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -934,7 +946,7 @@ body {
             }
         }
         .bottom-flex {
-            width: 100%;
+            width: 90%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -987,103 +999,114 @@ body {
         -webkit-user-select: none;
         margin-top: 5%;
         width: 100%;
-        .html {
-            background-color: #e34c26;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
-            }
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        .python {
-            background-color: #346c99;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
-            }
-        }
+        .boxy {
+            width: 90%;
+            // div {
+            //     margin-bottom: 0.5%;
+            // }
 
-        .linux {
-            background-color: #070708;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .html {
+                background-color: #e34c26;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .scss {
-            background-color: #d0649b;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .python {
+                background-color: #346c99;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .react {
-            background-color: #4adafe;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                line-height: 1.35;
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .linux {
+                background-color: #070708;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .js {
-            background-color: #f0ee00;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .scss {
+                background-color: #d0649b;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .css {
-            background-color: #13a1df;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .react {
+                background-color: #4adafe;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    line-height: 1.35;
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .php {
-            background-color: #4f5b93;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .js {
+                background-color: #f0ee00;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
             }
-        }
 
-        .mysql {
-            background-color: #e48e00;
-            border-radius: 20px;
-            text-align: center;
-            p {
-                color: white;
-                font-size: 64px;
-                font-weight: $semibold;
+            .css {
+                background-color: #13a1df;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
+            }
+
+            .php {
+                background-color: #4f5b93;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
+            }
+
+            .mysql {
+                background-color: #e48e00;
+                border-radius: 20px;
+                text-align: center;
+                p {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: $semibold;
+                }
             }
         }
     }
